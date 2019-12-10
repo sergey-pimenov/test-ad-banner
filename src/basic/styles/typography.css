@@ -1,0 +1,31 @@
+@font-face {
+  font-weight: bold;
+  font-family: 'sf_display';
+  font-style: normal;
+  src: url(~/../static/fonts/sfuidisplay-bold-webfont.woff2) format('woff2'),
+       url(~/../static/fonts/sfuidisplay-bold-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: 'sf_text';
+  font-style: normal;
+  src: url(~/../static/fonts/sfuitext-bold-webfont.woff2) format('woff2'),
+       url(~/../static/fonts/sfuitext-bold-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: 'sf_text';
+  font-style: normal;
+  src: url(~/../static/fonts/sfuitext-light-webfont.woff2) format('woff2'),
+       url(~/../static/fonts/sfuitext-light-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: 'sf_text';
+  font-style: normal;
+  src: url(~/../static/fonts/sfuitext-regular-webfont.woff2) format('woff2'),
+       url(~/../static/fonts/sfuitext-regular-webfont.woff) format('woff');
+}
