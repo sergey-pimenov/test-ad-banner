@@ -1,0 +1,45 @@
+{
+  "name": "verv-test-task",
+  "version": "1.0.0",
+  "description": "Test task for Verv",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html --host 192.168.0.104",
+    "build": "parcel build src/index.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.css": [
+      "stylelint --fix",
+      "git add"
+    ]
+  },
+  "staticFiles": {
+    "staticPath": "static",
+    "watcherGlob": "**"
+  },
+  "author": "Sergey Pimenov",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.4.3",
+    "parcel-bundler": "^1.12.3",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "prettier": "^1.19.1",
+    "stylelint": "^11.1.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-order": "^3.1.1",
+    "stylelint-prettier": "^1.1.1"
+  },
+  "dependencies": {
+    "parcel-plugin-static-files-copy": "^2.2.1"
+  }
+}
