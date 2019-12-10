@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/66f5ef39-a3e7-4240-a580-7f567b6f076c/deploy-status)](https://app.netlify.com/sites/test-ad-banner/deploys)
+
 <p align="center">
   <img width="400" src="https://i.giphy.com/media/nGMnDqebzDcfm/source.gif">
 </p>
